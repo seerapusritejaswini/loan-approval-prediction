@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the saved model
-model = joblib.load(r"C:\Users\SAITEJASWINI\Downloads\loan_model.pkl")
+model = joblib.load("loan_model.pkl")
 
 st.title("🏦 Loan Approval Prediction System")
 st.write("Enter applicant details below to check loan eligibility:")
